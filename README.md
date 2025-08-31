@@ -71,7 +71,7 @@ Simply open the `index.html` file in your web browser.
 
 ## 👤 Author  
 
-- **Nithin**  
-[GitHub Profile](https://github.com/nithin6743)  
+- **Varshitha**  
+[GitHub Profile](https://github.com/varshh-ds)  
 
 Feel free to contribute by creating issues or submitting pull requests! 😊
