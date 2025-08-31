@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather & GIF API Project</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.css" />
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="weather">
+      <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExd3cydDM3ZXQ5d3luMTQyNXRycDc1ZHdzNWE3aWtsdHFmemw0ejc1byZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/pLY8QHrlL9lKEpvdKQ/giphy.gif" alt="HELLO" class="gif">
+      <div class="details">
+        <h2 class="detailsTitle">Weather Details</h2>
+        <div class="weather-info">
+          <img src="https://cdn.weatherapi.com/weather/64x64/night/143.png" class="icon">
+          <div class="weatherDetails">
+            <p><strong>Location:</strong> <span id="location">..........</span></p>
+          <p><strong>Temperature:</strong> <span id="temperature">..........</span></p>
+          <p><strong>Weather:</strong> <span id="weather">..........</span></p>
+          <p><strong>Humidity:</strong> <span id="humidity">..........</span></p>
+          <p><strong>Wind Speed:</strong> <span id="wind-speed">..........</span></p>
+          </div>
+        </div>
+      </div>
+      <h2 class="loadMsg">CLick on the map </h2>
+    </div>
+    <div id="map"></div>
+  </div>
+
+
+
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+  <script src="https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
